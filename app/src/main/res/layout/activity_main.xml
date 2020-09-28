@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Include other widget or layout tags here. These are considered
+            "child views" or "children" of the linear layout -->
+
+    <TextureView
+        android:id="@+id/textureView2"
+        android:layout_width="280dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_height="165dp" />
+
+    <Button
+        android:id="@+id/button_symptoms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="50dp"
+        android:width="300dp"
+        android:text="RATE YOUR SYMPTOMS"
+        android:textAlignment="center"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Place finger on Camera"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button_id_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:width="300dp"
+        android:text="MEASURE HEART RATE"
+        android:textAlignment="center"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_id2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Place device on chest"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button_id_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:width="300dp"
+        android:text="MEASURE RESPIRATORY RATE"
+        android:textAlignment="center"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/upload_signs_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:width="300dp"
+        android:text="UPLOAD SIGNS"
+        android:textAlignment="center"
+        tools:ignore="MissingConstraints" />
+
+
+</LinearLayout>
